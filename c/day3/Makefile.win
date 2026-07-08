@@ -1,0 +1,70 @@
+# Project: Day3
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = ex4-5.o ex4-6.o ex4-7.o ex4-8.o ex4-9.o ex4-10.o ex4-11.o ex4-13.o ex4-14.o ex5-1.o ex5-2.o ex5-3.o ex5-4.o ex5-5.o ex5-6.o
+LINKOBJ  = ex4-5.o ex4-6.o ex4-7.o ex4-8.o ex4-9.o ex4-10.o ex4-11.o ex4-13.o ex4-14.o ex5-1.o ex5-2.o ex5-3.o ex5-4.o ex5-5.o ex5-6.o
+LIBS     = -L"D:/Dev-Cpp/MinGW64/lib" -L"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
+INCS     = -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = Day3.exe
+CXXFLAGS = $(CXXINCS) 
+CFLAGS   = $(INCS) 
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+ex4-5.o: ex4-5.c
+	$(CC) -c ex4-5.c -o ex4-5.o $(CFLAGS)
+
+ex4-6.o: ex4-6.c
+	$(CC) -c ex4-6.c -o ex4-6.o $(CFLAGS)
+
+ex4-7.o: ex4-7.c
+	$(CC) -c ex4-7.c -o ex4-7.o $(CFLAGS)
+
+ex4-8.o: ex4-8.c
+	$(CC) -c ex4-8.c -o ex4-8.o $(CFLAGS)
+
+ex4-9.o: ex4-9.c
+	$(CC) -c ex4-9.c -o ex4-9.o $(CFLAGS)
+
+ex4-10.o: ex4-10.c
+	$(CC) -c ex4-10.c -o ex4-10.o $(CFLAGS)
+
+ex4-11.o: ex4-11.c
+	$(CC) -c ex4-11.c -o ex4-11.o $(CFLAGS)
+
+ex4-13.o: ex4-13.c
+	$(CC) -c ex4-13.c -o ex4-13.o $(CFLAGS)
+
+ex4-14.o: ex4-14.c
+	$(CC) -c ex4-14.c -o ex4-14.o $(CFLAGS)
+
+ex5-1.o: ex5-1.c
+	$(CC) -c ex5-1.c -o ex5-1.o $(CFLAGS)
+
+ex5-2.o: ex5-2.c
+	$(CC) -c ex5-2.c -o ex5-2.o $(CFLAGS)
+
+ex5-3.o: ex5-3.c
+	$(CC) -c ex5-3.c -o ex5-3.o $(CFLAGS)
+
+ex5-4.o: ex5-4.c
+	$(CC) -c ex5-4.c -o ex5-4.o $(CFLAGS)
+
+ex5-5.o: ex5-5.c
+	$(CC) -c ex5-5.c -o ex5-5.o $(CFLAGS)
+
+ex5-6.o: ex5-6.c
+	$(CC) -c ex5-6.c -o ex5-6.o $(CFLAGS)

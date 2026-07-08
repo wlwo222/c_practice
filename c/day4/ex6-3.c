@@ -1,0 +1,15 @@
+//#include <stdio.h>
+//
+//int main()
+//{
+//	int a = 1;
+//	
+//	do
+//	{
+//		a *= 2;
+//	} while (a < 10); 
+//	
+//	printf("³¡ a : %d\n", a);
+//	
+//	return 0;
+//}

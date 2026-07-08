@@ -1,0 +1,55 @@
+# Project: Project1
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe -D__DEBUG__
+CC       = gcc.exe -D__DEBUG__
+WINDRES  = windres.exe
+OBJ      = void_func.o input_func.o output_func.o inout_func.o func_prototype.o ex7-1.o ex7-2.o ex7-3.o ex7-4.o calculator_v3.o
+LINKOBJ  = void_func.o input_func.o output_func.o inout_func.o func_prototype.o ex7-1.o ex7-2.o ex7-3.o ex7-4.o calculator_v3.o
+LIBS     = -L"D:/Dev-Cpp/MinGW64/lib" -L"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -g3
+INCS     = -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = Day5.exe
+CXXFLAGS = $(CXXINCS) -g3
+CFLAGS   = $(INCS) -g3
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+void_func.o: void_func.c
+	$(CC) -c void_func.c -o void_func.o $(CFLAGS)
+
+input_func.o: input_func.c
+	$(CC) -c input_func.c -o input_func.o $(CFLAGS)
+
+output_func.o: output_func.c
+	$(CC) -c output_func.c -o output_func.o $(CFLAGS)
+
+inout_func.o: inout_func.c
+	$(CC) -c inout_func.c -o inout_func.o $(CFLAGS)
+
+func_prototype.o: func_prototype.c
+	$(CC) -c func_prototype.c -o func_prototype.o $(CFLAGS)
+
+ex7-1.o: ex7-1.c
+	$(CC) -c ex7-1.c -o ex7-1.o $(CFLAGS)
+
+ex7-2.o: ex7-2.c
+	$(CC) -c ex7-2.c -o ex7-2.o $(CFLAGS)
+
+ex7-3.o: ex7-3.c
+	$(CC) -c ex7-3.c -o ex7-3.o $(CFLAGS)
+
+ex7-4.o: ex7-4.c
+	$(CC) -c ex7-4.c -o ex7-4.o $(CFLAGS)
+
+calculator_v3.o: calculator_v3.c
+	$(CC) -c calculator_v3.c -o calculator_v3.o $(CFLAGS)

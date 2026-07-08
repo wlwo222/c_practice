@@ -1,0 +1,73 @@
+# Project: Day2
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = ex3-3.o ex3-4.o test1.o ex3-5.o ex3-6.o ex3-7.o ex3-8.o ex4-1.o ex4-2.o ex3-9.o ex3-10.o ex3-11.o my_code.o test2.o ex4-3.o ex4-4.o
+LINKOBJ  = ex3-3.o ex3-4.o test1.o ex3-5.o ex3-6.o ex3-7.o ex3-8.o ex4-1.o ex4-2.o ex3-9.o ex3-10.o ex3-11.o my_code.o test2.o ex4-3.o ex4-4.o
+LIBS     = -L"D:/Dev-Cpp/MinGW64/lib" -L"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
+INCS     = -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = Day2.exe
+CXXFLAGS = $(CXXINCS) 
+CFLAGS   = $(INCS) 
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+ex3-3.o: ex3-3.c
+	$(CPP) -c ex3-3.c -o ex3-3.o $(CXXFLAGS)
+
+ex3-4.o: ex3-4.c
+	$(CPP) -c ex3-4.c -o ex3-4.o $(CXXFLAGS)
+
+test1.o: test1.c
+	$(CPP) -c test1.c -o test1.o $(CXXFLAGS)
+
+ex3-5.o: ex3-5.c
+	$(CPP) -c ex3-5.c -o ex3-5.o $(CXXFLAGS)
+
+ex3-6.o: ex3-6.c
+	$(CPP) -c ex3-6.c -o ex3-6.o $(CXXFLAGS)
+
+ex3-7.o: ex3-7.c
+	$(CPP) -c ex3-7.c -o ex3-7.o $(CXXFLAGS)
+
+ex3-8.o: ex3-8.c
+	$(CPP) -c ex3-8.c -o ex3-8.o $(CXXFLAGS)
+
+ex4-1.o: ex4-1.c
+	$(CPP) -c ex4-1.c -o ex4-1.o $(CXXFLAGS)
+
+ex4-2.o: ex4-2.c
+	$(CPP) -c ex4-2.c -o ex4-2.o $(CXXFLAGS)
+
+ex3-9.o: ex3-9.c
+	$(CPP) -c ex3-9.c -o ex3-9.o $(CXXFLAGS)
+
+ex3-10.o: ex3-10.c
+	$(CPP) -c ex3-10.c -o ex3-10.o $(CXXFLAGS)
+
+ex3-11.o: ex3-11.c
+	$(CPP) -c ex3-11.c -o ex3-11.o $(CXXFLAGS)
+
+my_code.o: my_code.c
+	$(CPP) -c my_code.c -o my_code.o $(CXXFLAGS)
+
+test2.o: test2.c
+	$(CPP) -c test2.c -o test2.o $(CXXFLAGS)
+
+ex4-3.o: ex4-3.c
+	$(CPP) -c ex4-3.c -o ex4-3.o $(CXXFLAGS)
+
+ex4-4.o: ex4-4.c
+	$(CPP) -c ex4-4.c -o ex4-4.o $(CXXFLAGS)
