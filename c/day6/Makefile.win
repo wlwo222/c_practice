@@ -1,0 +1,70 @@
+# Project: Project1
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = ex8-4.o ex8-5.o ex8-6.o ex8-7.o ex9-1.o ex9-2.o ex9-3.o ex9-4.o const_pointer_test.o ex9-5.o ex9-6.o swap.o ex10-1.o ex10-2.o ex10-3.o
+LINKOBJ  = ex8-4.o ex8-5.o ex8-6.o ex8-7.o ex9-1.o ex9-2.o ex9-3.o ex9-4.o const_pointer_test.o ex9-5.o ex9-6.o swap.o ex10-1.o ex10-2.o ex10-3.o
+LIBS     = -L"D:/Dev-Cpp/MinGW64/lib" -L"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
+INCS     = -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = Day6.exe
+CXXFLAGS = $(CXXINCS) 
+CFLAGS   = $(INCS) 
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+ex8-4.o: ex8-4.c
+	$(CC) -c ex8-4.c -o ex8-4.o $(CFLAGS)
+
+ex8-5.o: ex8-5.c
+	$(CC) -c ex8-5.c -o ex8-5.o $(CFLAGS)
+
+ex8-6.o: ex8-6.c
+	$(CC) -c ex8-6.c -o ex8-6.o $(CFLAGS)
+
+ex8-7.o: ex8-7.c
+	$(CC) -c ex8-7.c -o ex8-7.o $(CFLAGS)
+
+ex9-1.o: ex9-1.c
+	$(CC) -c ex9-1.c -o ex9-1.o $(CFLAGS)
+
+ex9-2.o: ex9-2.c
+	$(CC) -c ex9-2.c -o ex9-2.o $(CFLAGS)
+
+ex9-3.o: ex9-3.c
+	$(CC) -c ex9-3.c -o ex9-3.o $(CFLAGS)
+
+ex9-4.o: ex9-4.c
+	$(CC) -c ex9-4.c -o ex9-4.o $(CFLAGS)
+
+const_pointer_test.o: const_pointer_test.c
+	$(CC) -c const_pointer_test.c -o const_pointer_test.o $(CFLAGS)
+
+ex9-5.o: ex9-5.c
+	$(CC) -c ex9-5.c -o ex9-5.o $(CFLAGS)
+
+ex9-6.o: ex9-6.c
+	$(CC) -c ex9-6.c -o ex9-6.o $(CFLAGS)
+
+swap.o: swap.c
+	$(CC) -c swap.c -o swap.o $(CFLAGS)
+
+ex10-1.o: ex10-1.c
+	$(CC) -c ex10-1.c -o ex10-1.o $(CFLAGS)
+
+ex10-2.o: ex10-2.c
+	$(CC) -c ex10-2.c -o ex10-2.o $(CFLAGS)
+
+ex10-3.o: ex10-3.c
+	$(CC) -c ex10-3.c -o ex10-3.o $(CFLAGS)

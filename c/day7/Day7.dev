@@ -1,6 +1,6 @@
 [Project]
-FileName=Day5.dev
-Name=Project1
+FileName=Day7.dev
+Name=Day7
 Type=1
 Ver=2
 ObjFiles=
@@ -28,8 +28,8 @@ Folders=
 IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=0
-CompilerSettings=0000000000000000001000000
-UnitCount=13
+CompilerSettings=0000000000000000000000000
+UnitCount=7
 
 [VersionInfo]
 Major=1
@@ -51,7 +51,7 @@ AutoIncBuildNr=0
 SyncProduct=1
 
 [Unit1]
-FileName=void_func.c
+FileName=ex11-1.c
 CompileCpp=0
 Folder=
 Compile=1
@@ -61,7 +61,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit2]
-FileName=input_func.c
+FileName=ex10-4.c
 CompileCpp=0
 Folder=
 Compile=1
@@ -71,7 +71,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit3]
-FileName=output_func.c
+FileName=ex11-3.c
 CompileCpp=0
 Folder=
 Compile=1
@@ -81,7 +81,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit4]
-FileName=inout_func.c
+FileName=ex11-4.c
 CompileCpp=0
 Folder=
 Compile=1
@@ -91,7 +91,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit5]
-FileName=func_prototype.c
+FileName=ex11-5.c
 CompileCpp=0
 Folder=
 Compile=1
@@ -101,7 +101,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit6]
-FileName=ex7-1.c
+FileName=ex11-6.c
 CompileCpp=0
 Folder=
 Compile=1
@@ -111,67 +111,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit7]
-FileName=ex7-2.c
-CompileCpp=0
-Folder=
-Compile=1
-Link=1
-Priority=1000
-OverrideBuildCmd=0
-BuildCmd=
-
-[Unit8]
-FileName=ex7-3.c
-CompileCpp=0
-Folder=
-Compile=1
-Link=1
-Priority=1000
-OverrideBuildCmd=0
-BuildCmd=
-
-[Unit9]
-FileName=ex7-4.c
-CompileCpp=0
-Folder=
-Compile=1
-Link=1
-Priority=1000
-OverrideBuildCmd=0
-BuildCmd=
-
-[Unit10]
-FileName=calculator_v3.c
-CompileCpp=0
-Folder=
-Compile=1
-Link=1
-Priority=1000
-OverrideBuildCmd=0
-BuildCmd=
-
-[Unit11]
-FileName=ex8-1.c
-CompileCpp=0
-Folder=
-Compile=1
-Link=1
-Priority=1000
-OverrideBuildCmd=0
-BuildCmd=
-
-[Unit12]
-FileName=ex8-2.c
-CompileCpp=0
-Folder=
-Compile=1
-Link=1
-Priority=1000
-OverrideBuildCmd=0
-BuildCmd=
-
-[Unit13]
-FileName=ex8-3.c
+FileName=ex11-7.c
 CompileCpp=0
 Folder=
 Compile=1
