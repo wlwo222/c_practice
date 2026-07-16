@@ -4,8 +4,8 @@
 CPP      = g++.exe
 CC       = gcc.exe
 WINDRES  = windres.exe
-OBJ      = ex12-1.o test.o ex12-2.o ex12-3.o ex12-4.o ex12-5.o ex12-6.o ex12-7.o ex12-8.o ex12-9.o ex12-10.o ex12-11.o ex12-12.o ex12-13.o
-LINKOBJ  = ex12-1.o test.o ex12-2.o ex12-3.o ex12-4.o ex12-5.o ex12-6.o ex12-7.o ex12-8.o ex12-9.o ex12-10.o ex12-11.o ex12-12.o ex12-13.o
+OBJ      = ex12-1.o test.o ex12-2.o ex12-3.o ex12-4.o ex12-5.o ex12-6.o ex12-7.o ex12-8.o ex12-9.o ex12-10.o ex12-11.o ex12-12.o ex12-13.o ex13-1.o ex13-2.o ex13-3.o ex13-4.o ex13-5.o
+LINKOBJ  = ex12-1.o test.o ex12-2.o ex12-3.o ex12-4.o ex12-5.o ex12-6.o ex12-7.o ex12-8.o ex12-9.o ex12-10.o ex12-11.o ex12-12.o ex12-13.o ex13-1.o ex13-2.o ex13-3.o ex13-4.o ex13-5.o
 LIBS     = -L"D:/Dev-Cpp/MinGW64/lib" -L"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
 INCS     = -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
 CXXINCS  = -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
@@ -65,3 +65,18 @@ ex12-12.o: ex12-12.c
 
 ex12-13.o: ex12-13.c
 	$(CC) -c ex12-13.c -o ex12-13.o $(CFLAGS)
+
+ex13-1.o: ex13-1.c
+	$(CC) -c ex13-1.c -o ex13-1.o $(CFLAGS)
+
+ex13-2.o: ex13-2.c
+	$(CC) -c ex13-2.c -o ex13-2.o $(CFLAGS)
+
+ex13-3.o: ex13-3.c
+	$(CC) -c ex13-3.c -o ex13-3.o $(CFLAGS)
+
+ex13-4.o: ex13-4.c
+	$(CC) -c ex13-4.c -o ex13-4.o $(CFLAGS)
+
+ex13-5.o: ex13-5.c
+	$(CC) -c ex13-5.c -o ex13-5.o $(CFLAGS)

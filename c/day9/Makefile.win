@@ -1,0 +1,67 @@
+# Project: Day9
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe -D__DEBUG__
+CC       = gcc.exe -D__DEBUG__
+WINDRES  = windres.exe
+OBJ      = ex13-6.o ex13-7.o ex13-8.o ex14-1.o ex14-2.o ex14-3.o ex14-4.o ex14-6.o ex14-7.o 441p_practice.o ex15-1.o ex15-2.o ex15-3.o test22.o
+LINKOBJ  = ex13-6.o ex13-7.o ex13-8.o ex14-1.o ex14-2.o ex14-3.o ex14-4.o ex14-6.o ex14-7.o 441p_practice.o ex15-1.o ex15-2.o ex15-3.o test22.o
+LIBS     = -L"D:/Dev-Cpp/MinGW64/lib" -L"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -g3
+INCS     = -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = Day9.exe
+CXXFLAGS = $(CXXINCS) -g3
+CFLAGS   = $(INCS) -g3
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+ex13-6.o: ex13-6.c
+	$(CC) -c ex13-6.c -o ex13-6.o $(CFLAGS)
+
+ex13-7.o: ex13-7.c
+	$(CC) -c ex13-7.c -o ex13-7.o $(CFLAGS)
+
+ex13-8.o: ex13-8.c
+	$(CC) -c ex13-8.c -o ex13-8.o $(CFLAGS)
+
+ex14-1.o: ex14-1.c
+	$(CC) -c ex14-1.c -o ex14-1.o $(CFLAGS)
+
+ex14-2.o: ex14-2.c
+	$(CC) -c ex14-2.c -o ex14-2.o $(CFLAGS)
+
+ex14-3.o: ex14-3.c
+	$(CC) -c ex14-3.c -o ex14-3.o $(CFLAGS)
+
+ex14-4.o: ex14-4.c
+	$(CC) -c ex14-4.c -o ex14-4.o $(CFLAGS)
+
+ex14-6.o: ex14-6.c
+	$(CC) -c ex14-6.c -o ex14-6.o $(CFLAGS)
+
+ex14-7.o: ex14-7.c
+	$(CC) -c ex14-7.c -o ex14-7.o $(CFLAGS)
+
+441p_practice.o: 441p_practice.c
+	$(CC) -c 441p_practice.c -o 441p_practice.o $(CFLAGS)
+
+ex15-1.o: ex15-1.c
+	$(CC) -c ex15-1.c -o ex15-1.o $(CFLAGS)
+
+ex15-2.o: ex15-2.c
+	$(CC) -c ex15-2.c -o ex15-2.o $(CFLAGS)
+
+ex15-3.o: ex15-3.c
+	$(CC) -c ex15-3.c -o ex15-3.o $(CFLAGS)
+
+test22.o: test22.c
+	$(CC) -c test22.c -o test22.o $(CFLAGS)
