@@ -1,11 +1,11 @@
 #include <stdio.h>
 #define SIZE	5
 
-void input_score(int* score);
-void output_score(int* score);
-void get_avg_score(int* score);
-void get_max_score(int* score);
-void get_min_score(int* score);
+void input_score(int*);
+void output_score(int*);
+void get_avg_score(int*);
+void get_max_score(int*);
+void get_min_score(int*);
 
 int main()
 {
@@ -34,7 +34,6 @@ int main()
 			case 6: break;	
 			default: printf("올바른 값을 입력해 주세요. \n"); break;	
 		}
-		
 		if (menu == 6) { break; }
 	}
 	
@@ -45,10 +44,10 @@ void input_score(int* score)
 {
 	int i;
 	
-	for (i = 1; i < SIZE + 1; i++)
+	for (i = 0; i < SIZE; i++)
 	{
-		printf("%d 번째 학생 점수 입력 : ", i);
-		scanf("%d", &score[i - 1]);
+		printf("%d 번째 학생 점수 입력 : ", i + 1);
+		scanf("%d", &score[i]);
 		printf("\n");
 	}
 }
@@ -57,9 +56,9 @@ void output_score(int* score)
 {
 	int i;
 	
-	for (i = 1; i < SIZE + 1; i++)
+	for (i = 0; i < SIZE; i++)
 	{
-		printf("%d 번째 학생 점수 : %d\n", i, score[i - 1]);
+		printf("%d 번째 학생 점수 : %d\n", i + 1, score[i]);
 	}
 }
 
@@ -79,9 +78,9 @@ void get_max_score(int* score)
 {
 	int max = score[0], i;
 	
-	for (i = 0; i < SIZE; i++)
+	for (i = 1; i < SIZE; i++)
 	{
-		max = max > score[i] ? max : score[i];
+		max = max >= score[i] ? max : score[i];
 	}
 	
 	printf("학생들 중 최고 점수 : %d\n", max);
@@ -91,10 +90,10 @@ void get_min_score(int* score)
 {
 	int min = score[0], i;
 	
-	for (i = 0; i < SIZE; i++)
+	for (i = 1; i < SIZE; i++)
 	{
-		min = min < score[i] ? min : score[i];
+		min = min <= score[i] ? min : score[i];
 	}
 	
-	printf("학생들 중 최소 점수 : %d\n", min);
+	printf("학생들 중 최저 점수 : %d\n", min);
 }

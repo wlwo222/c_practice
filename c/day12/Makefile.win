@@ -1,0 +1,49 @@
+# Project: day12
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = 16-6.o ex17-6.o ex17-10.o ex17-11.o ex17-12.o ex18-1.o ex18-2.o ex18-3.o
+LINKOBJ  = 16-6.o ex17-6.o ex17-10.o ex17-11.o ex17-12.o ex18-1.o ex18-2.o ex18-3.o
+LIBS     = -L"D:/Dev-Cpp/MinGW64/lib" -L"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
+INCS     = -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = day12.exe
+CXXFLAGS = $(CXXINCS) 
+CFLAGS   = $(INCS) 
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+16-6.o: 16-6.c
+	$(CC) -c 16-6.c -o 16-6.o $(CFLAGS)
+
+ex17-6.o: ex17-6.c
+	$(CC) -c ex17-6.c -o ex17-6.o $(CFLAGS)
+
+ex17-10.o: ex17-10.c
+	$(CC) -c ex17-10.c -o ex17-10.o $(CFLAGS)
+
+ex17-11.o: ex17-11.c
+	$(CC) -c ex17-11.c -o ex17-11.o $(CFLAGS)
+
+ex17-12.o: ex17-12.c
+	$(CC) -c ex17-12.c -o ex17-12.o $(CFLAGS)
+
+ex18-1.o: ex18-1.c
+	$(CC) -c ex18-1.c -o ex18-1.o $(CFLAGS)
+
+ex18-2.o: ex18-2.c
+	$(CC) -c ex18-2.c -o ex18-2.o $(CFLAGS)
+
+ex18-3.o: ex18-3.c
+	$(CC) -c ex18-3.c -o ex18-3.o $(CFLAGS)
