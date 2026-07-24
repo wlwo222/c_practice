@@ -23,7 +23,7 @@ int main() {
 			case 4:	// 회원 정보 수정 
 				modify_member(); break;
 			case 5:	// 회원 삭제 
-				add_member(); break;
+				remove_member(); break;
 			case 6:	// 종료 
 				break;
 		}

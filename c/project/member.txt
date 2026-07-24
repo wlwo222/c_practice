@@ -1,7 +1,4 @@
-1 원천지재 남자 31 01031119132 
-2 aa 남 52 112 
-3 dasd afa 15 23 
-4 adf s 2 5 
-5 af fd 25 4 
-6 ad g 6 5 
-7 ad f 1 5 
+1 AAA                 male      23   4555               
+2 abc                 femail    55   23                 
+3 지재                male      25   01010              
+4 파이리              남        여   111                
