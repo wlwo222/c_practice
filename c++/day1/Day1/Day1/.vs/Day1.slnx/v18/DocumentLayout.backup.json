@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\wlwo222\\c_practice\\c\u002B\u002B\\day1\\Day1\\Day1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{86A8B904-BE47-4CFC-95B8-44666E37E873}|Day1\\Day1.vcxproj|C:\\Users\\user\\source\\repos\\wlwo222\\c_practice\\c\u002B\u002B\\day1\\Day1\\Day1\\Day1\\ex12.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{86A8B904-BE47-4CFC-95B8-44666E37E873}|Day1\\Day1.vcxproj|solutionrelative:Day1\\ex12.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86A8B904-BE47-4CFC-95B8-44666E37E873}|Day1\\Day1.vcxproj|C:\\Users\\user\\source\\repos\\wlwo222\\c_practice\\c\u002B\u002B\\day1\\Day1\\Day1\\Day1\\ex15.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{86A8B904-BE47-4CFC-95B8-44666E37E873}|Day1\\Day1.vcxproj|solutionrelative:Day1\\ex15.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86A8B904-BE47-4CFC-95B8-44666E37E873}|Day1\\Day1.vcxproj|C:\\Users\\user\\source\\repos\\wlwo222\\c_practice\\c\u002B\u002B\\day1\\Day1\\Day1\\Day1\\ex13.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{86A8B904-BE47-4CFC-95B8-44666E37E873}|Day1\\Day1.vcxproj|solutionrelative:Day1\\ex13.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86A8B904-BE47-4CFC-95B8-44666E37E873}|Day1\\Day1.vcxproj|C:\\Users\\user\\source\\repos\\wlwo222\\c_practice\\c\u002B\u002B\\day1\\Day1\\Day1\\Day1\\ex14.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{86A8B904-BE47-4CFC-95B8-44666E37E873}|Day1\\Day1.vcxproj|solutionrelative:Day1\\ex14.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86A8B904-BE47-4CFC-95B8-44666E37E873}|Day1\\Day1.vcxproj|C:\\Users\\user\\source\\repos\\wlwo222\\c_practice\\c\u002B\u002B\\day1\\Day1\\Day1\\Day1\\ex11.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{86A8B904-BE47-4CFC-95B8-44666E37E873}|Day1\\Day1.vcxproj|solutionrelative:Day1\\ex11.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ex12.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\wlwo222\\c_practice\\c\u002B\u002B\\day1\\Day1\\Day1\\Day1\\ex12.cpp",
+              "RelativeDocumentMoniker": "Day1\\ex12.cpp",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\wlwo222\\c_practice\\c\u002B\u002B\\day1\\Day1\\Day1\\Day1\\ex12.cpp",
+              "RelativeToolTip": "Day1\\ex12.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-07-27T06:39:58.123Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ex15.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\wlwo222\\c_practice\\c\u002B\u002B\\day1\\Day1\\Day1\\Day1\\ex15.cpp",
+              "RelativeDocumentMoniker": "Day1\\ex15.cpp",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\wlwo222\\c_practice\\c\u002B\u002B\\day1\\Day1\\Day1\\Day1\\ex15.cpp",
+              "RelativeToolTip": "Day1\\ex15.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-07-27T07:23:47.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ex14.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\wlwo222\\c_practice\\c\u002B\u002B\\day1\\Day1\\Day1\\Day1\\ex14.cpp",
+              "RelativeDocumentMoniker": "Day1\\ex14.cpp",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\wlwo222\\c_practice\\c\u002B\u002B\\day1\\Day1\\Day1\\Day1\\ex14.cpp",
+              "RelativeToolTip": "Day1\\ex14.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-07-27T07:19:21.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ex13.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\wlwo222\\c_practice\\c\u002B\u002B\\day1\\Day1\\Day1\\Day1\\ex13.cpp",
+              "RelativeDocumentMoniker": "Day1\\ex13.cpp",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\wlwo222\\c_practice\\c\u002B\u002B\\day1\\Day1\\Day1\\Day1\\ex13.cpp",
+              "RelativeToolTip": "Day1\\ex13.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-07-27T07:10:19.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ex11.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\wlwo222\\c_practice\\c\u002B\u002B\\day1\\Day1\\Day1\\Day1\\ex11.cpp",
+              "RelativeDocumentMoniker": "Day1\\ex11.cpp",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\wlwo222\\c_practice\\c\u002B\u002B\\day1\\Day1\\Day1\\Day1\\ex11.cpp",
+              "RelativeToolTip": "Day1\\ex11.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-07-27T06:27:23.531Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
